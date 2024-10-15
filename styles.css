@@ -129,7 +129,12 @@ font-weight:400;
 line-weight:25px;
 margin-bottom:10px;
 }
-
+@media(max-width:890px){
+    header{
+        padding:20px 3%;
+        transition:.4s;
+    }
+}
 
 
 
