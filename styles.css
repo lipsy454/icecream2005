@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Jost',sans-serif;
+    list-style:none;
+    text-decoration:none;
+}
+.logo{
+    color:red;
+    font-style:italic;
+}
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    right:0;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+}
+.navmenu{
+    display:flex;
+}
+.navmenu a{
+    color:#2c2c2c;
+    font-size:16px;
+    text-transform:capitalize;
+    padding:10px 20px;
+    font-wweight:400;
+    transition:all;
+}
+.navmenu a:hover{
+    color:red;
+}
+.navicon{
+    padding:10px 20px;
+    align-items:center;
+}
+.navicon i{
+    margin-right:20px;
+    color:red;
+}
+.navicon a:hover{
+    color:blue;
+}
+section{
+    padding:5% 10%;
+    
+}
+.mainhome{
+    width:100%;
+    height:100vh;
+    background-image:url('https://tse4.mm.bing.net/th?id=OIP.31G903WI5TRQPCb6-iVlVQHaEJ&pid=Api&P=0&h=180');
+    background-size:cover;
+    display:grid;
+    align-items:center;
+    color:red;
+    font-size:50px;
+    grid-template-columns:repeat(1,1fr);
+}
+
+.heart i:hover{
+    color:#EE1C47;
+}
+.rating{
+color:#FF8C00;
+font-size:18px;
+}
+.rating i:hover{
+    color:yellow;
+}
+.row img{
+max-width:140px;
+height:auto;
+}
+.row button{
+text-align:center;
+color:red;
+}
+.row button:hover{
+color:yellow;
+fill:yellow;
+transform:scale(0.9);
+}
+.center-text{
+font-size:28px;
+text-transform:capitalize;
+text-align:center;
+padding:30px;
+}
+.product{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,auto));
+gap:2rem;
+}
+.trending-product{
+background-color:#F8B195;
+}
+.row img:hover{
+transform:scale(0.9);
+}
+.client{
+background-color:#FFF5E9;
+}
+.review{
+text-align:center;
+}
+.review h3{
+color:#111;
+font-size:25px;
+text-transform:capitalize;
+text-align:center;
+font-weight:700;
+}
+.review img{
+width:100px;
+height:auto;
+border-radius:80px;
+margin:10px 0;
+text-align:center;
+}
+.review p{
+font-size:16px;
+font-weight:400;
+line-weight:25px;
+margin-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
